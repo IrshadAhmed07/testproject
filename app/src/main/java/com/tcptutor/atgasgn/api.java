@@ -13,7 +13,10 @@ public interface api {
             @Query("format") String format, @Query("nojsoncallback") String
         nojsoncallback, @Query("extras") String extras, @Query("text") String text);
 
-
+    /*@GET("rest/?")
+    Call<Mainphoto> getPhoto (@Query("method") String method, @Query("api_key") String api_key,
+                              @Query("format") String format, @Query("nojsoncallback") String
+                                      nojsoncallback, @Query("extras") String extras, @Query("text") String text);*/
 
 
 
